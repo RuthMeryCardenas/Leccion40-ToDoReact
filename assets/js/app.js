@@ -7,7 +7,7 @@ const render = (root) => {
   root.append(wrapper);
 }
 const state = {
-  todos: [];
+  todos: []
 };
 $( _ => {
   const root = $(".root");
